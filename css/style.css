@@ -7,6 +7,10 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 h1,
 h2,
 h3,
@@ -250,18 +254,20 @@ a:focus {
 .hero {
   position: relative;
   width: 100%;
+  height: 100%;
   margin-bottom: 45px;
-  padding: 120px 0 0 0;
+  padding: 200px 0 0 0;
   overflow: hidden;
   background: linear-gradient(
-      rgba(0, 71, 171, 0.55),
-      rgba(95, 158, 160, 0.55),
-      rgba(158, 76, 111, 0.55)
+      rgba(0, 71, 171, 0.5),
+      rgba(95, 158, 160, 0.5),
+      rgba(158, 76, 111, 0.5)
     ),
     url(../img/hero-bg.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  scroll-behavior: smooth;
 }
 
 .hero .container-fluid {
@@ -271,6 +277,7 @@ a:focus {
 
 .atharv {
   border-radius: 50%;
+  margin-left: 150px;
 }
 
 .hero .hero-image {
@@ -332,6 +339,7 @@ a:focus {
   color: #0047ab;
   background: #ffffff;
   box-shadow: inset 0 0 0 50px #ffffff;
+  scroll-behavior: smooth;
 }
 
 .hero .hero-btn .btn:hover {
@@ -889,7 +897,7 @@ a:focus {
 .portfolio .portfolio-text {
   position: relative;
   height: 60px;
-  width: calc(100% - 30px);
+  width: calc(100% - 10px);
   margin: -30px 15px 30px 15px;
   display: flex;
   align-items: center;
@@ -898,7 +906,7 @@ a:focus {
 }
 
 .portfolio .portfolio-text h3 {
-  width: calc(100% - 70px);
+  width: calc(100%);
   font-size: 12px;
   font-weight: 600;
   margin: 0 0 0 15px;
