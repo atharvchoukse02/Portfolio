@@ -596,6 +596,10 @@ a:focus {
   padding-top: 8px;
 }
 
+.messagetext {
+  color: white;
+}
+
 .experience .timeline .timeline-item {
   position: relative;
   background: inherit;
